@@ -14,14 +14,14 @@ const Sessions = sequelize.define('Sessions', {
             notEmpty: true,
         }
     },
-    teamA: {
+    matchId: {
         type: Sequelize.STRING,
         allowNull: false,
         validate: {
             notEmpty: true,
         }
     },
-    teamB: {
+    sessionName: {
         type: Sequelize.STRING,
         allowNull: false,
         validate: {
